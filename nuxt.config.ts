@@ -86,7 +86,7 @@ export default defineNuxtConfig({
       buildInfo: {} as BuildInfo, // set in build-env module
       pwaEnabled: !isDevelopment || process.env.VITE_DEV_PWA === 'true',
       translateApi: '',
-      defaultServer: 'mas.to',
+      defaultServer: 'glauca.space',
     },
     storage: {
       driver: isCI ? 'cloudflare' : 'fs',
